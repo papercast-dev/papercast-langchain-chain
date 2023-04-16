@@ -1,10 +1,9 @@
 from papercast.base import BaseProcessor
 from papercast.base import Production
-
 from langchain.chains import LLMChain
 
 
-class ChainProcessor(BaseProcessor):
+class LLMChainProcessor(BaseProcessor):
     input_types = {"text": str}
     output_types = {"text": str}
 
